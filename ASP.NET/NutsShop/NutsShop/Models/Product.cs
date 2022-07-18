@@ -13,6 +13,10 @@ namespace NutsShop.Models
         [Range(1,int.MaxValue)]
         public decimal Price { get; set; }
         public string Image { get; set; }
+        [Display(Name = "Category Type")]
+        public int CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
+        public virtual Category Category { get; set; }
 
     }
 }
