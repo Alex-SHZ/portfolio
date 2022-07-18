@@ -27,6 +27,7 @@
 #### xUnit tests:
 #### - [Unit tests on ActManager](https://github.com/Alex-SHZ/portfolio/tree/main/ConsoleApplication/ActEngineTests)
 #### ASP.NET:
-#### - [Accounting of personnel at the enterprise](https://github.com/Alex-SHZ/portfolio/tree/main/ASP.NET/InternShip)
+#### - [NutsShop](https://github.com/Alex-SHZ/Portfolio/tree/main/ASP.NET/NutsShop)(Not Finished)
+#### - [Accounting of personnel at the enterprise](https://github.com/Alex-SHZ/Portfolio/tree/main/ASP.NET/AccountingSystem)
 #### SQL:
 #### - [SQL request](https://github.com/Alex-SHZ/portfolio/tree/main/SQL)
