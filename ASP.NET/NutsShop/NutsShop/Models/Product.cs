@@ -9,14 +9,23 @@ namespace NutsShop.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public string ShortDesc { get; set; }
         public string Desctiption { get; set; }
         [Range(1,int.MaxValue)]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public string Image { get; set; }
+
+
         [Display(Name = "Category Type")]
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }
+
+
+        [Display(Name = "Application Type")]
+        public int ApplicationTypeId { get; set; }
+        [ForeignKey("ApplicationTypeId")]
+        public virtual ApplicationType ApplicationType { get; set; }
 
     }
 }
